@@ -98,14 +98,15 @@ class Login extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Row(
-                    children: [
-                      Image.asset(
-                        'images/google.png',
-                        height: 72,
-                      )
-                    ],
-                  ),
+                  //begin here error image failure to load
+                  //Row(
+                  //children: [
+                  //Image.asset(
+                  //'images/google.png',
+                  //height: 72,
+                  //)
+                  //],
+                  //),
                   Expanded(
                       child: Divider(
                     thickness: 1,
